@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // Hardcoded for testing
+  origin: 'https://work-flow-pro-assignment.netlify.app', // Hardcoded for testing
   credentials: true
 }));
 app.use(express.json());
